@@ -120,8 +120,148 @@ main {
     text-align: center;
 }
 
+
 .plan-item img {
     /* text-align: center; */
     /* width: 50%; */
     margin-left: 40px;
+}
+
+/* keep section styles */
+.keep {
+    padding-top: 180px;
+    padding-left: 50px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
+    width: 100%;
+    height: 300px;
+
+    background-size: cover;
+    border-radius: 8px;
+
+}
+
+.keep-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.keep-btn {
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* contact section */
+.contact {
+    background: #FFF4D6;
+    width: 100%;
+    height: 100px;
+}
+
+.contact-container {
+    display: flex;
+    /* background-color: #FFF4D6; */
+    align-items: center;
+
+
+}
+
+.contact input[type=email] {
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.contact-btn {
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    background: #FF5959;
+    color: #FFF;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer section styles */
+footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: var(--Dark-01, #151414);
+}
+
+.footer-container {
+    display: flex;
+    gap: 200px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.footer-item {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.footer-item-title {
+    color: #F8F8F8;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-item-description {
+    color: #FFF;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.footer-item-email {
+    color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-item-phone {
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.footer-item a img {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.footer-contact {
+    padding-right: 35px;
+
+}
+
+.footer-contact-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.footer-contact input[type="email"] {
+    background: var(--Dark-01, #151414);
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.footer-contact-btn {
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+
+
 }
