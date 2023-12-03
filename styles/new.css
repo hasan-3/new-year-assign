@@ -1,0 +1,85 @@
+/* common styles */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    margin-top: 100px;
+}
+
+/* header and banner styles */
+.header {
+    background-color: #a5a79d;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.banner-item {
+    padding-left: 50px;
+}
+
+.banner-item-title {
+    color: var(--Dark-01, #151414);
+    text-align: left;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner-item-description {
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.banner-btn {
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* failure section styles */
+.failure {}
+
+.failure-container {
+    display: flex;
+    align-items: center;
+}
+
+.failure-image {
+    width: 50%;
+}
+
+.failure-item {}
+
+.failure-title {
+    color: var(--Dark-01, #151414);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.failure-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.failure ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
